@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito de Compras</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <section id="header">
+        <a  href="#"><img src="img/formula-1-8211-f1.png" class="logo" height="150" width="150"></a>
+
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="tienda.html">Tienda</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="acerca.html">Acerca de</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a class="active" href="carrito.html"><i class="fas fa-shopping-basket"></i></a></li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="bannercarrito">
+        <h1>Finaliza tus Compras</h1>
+    </section>
+
+   <section id="carrito" class="section-p1">
+    <table width="100%">
+        <thead>
+            <tr>
+                <td>Eliminar</td>
+                <td>Imagen</td>
+                <td>Producto</td>
+                <td>Precio</td>
+                <td>Cantidad</td>
+                <td>Subtotal</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><a href=""><i class="fas fa-trash"></i></a></td>
+                <td><img src="img/productos/gorra haas.jpg" alt=""></td>
+                <td>Gorra HAAS #1</td>
+                <td>$78</td>
+                <td><input type="number" value="1"></td>
+                <td>$78</td>
+            </tr>
+            <tr>
+                <td><a href=""><i class="fas fa-trash"></i></a></td>
+                <td><img src="img/productos/gorrahaas2.jpg" alt=""></td>
+                <td>Gorra HAAS #2</td>
+                <td>$78</td>
+                <td><input type="number" value="1"></td>
+                <td>$78</td>
+            </tr>
+            <tr>
+                <td><a href=""><i class="fas fa-trash"></i></a></td>
+                <td><img src="img/productos/gorrahaas4.jpg" alt=""></td>
+                <td>Gorra HAAS #4</td>
+                <td>$78</td>
+                <td><input type="number" value="1"></td>
+                <td>$78</td>
+            </tr>
+        </tbody>
+    </table>
+   </section>
+
+   <section id="cart-add" class="section-p1">
+    <div id="cupon">
+        <h3>Aplicar Cupón de Descuento</h3>
+        <div>
+            <input type="text" placeholder="Ingrese su cupón">
+            <button class="normal">Aplicar</button>
+        </div>
+    </div>
+    <div id="subtotal">
+        <h3>Total De Compra</h3>
+        <table>
+            <tr>
+                <td>Subtotal</td>
+                <td>$234</td>
+            </tr>
+            <tr>
+                <td>Envío</td>
+                <td>Gratuito</td>
+            </tr>
+            <tr>
+                <td> <strong>Total</strong></td>
+                <td> <strong>$234</strong></td>
+            </tr>
+        </table>
+        <button class="normal">Continuar con el Pago</button>
+    </div>
+   </section>
+    
+    <footer class="section-p1">
+        <div class="col">
+            <img class="logo" src="img/formula-1-8211-f1.png" height="100" width="100" alt="">
+            <h4>Contacto</h4>
+            <p><strong>Dirección: </strong>Calle Jaramillo #245 Col. Los Sauces Mazatlán, Sinaloa, México</p>
+            <p><strong>Teléfono: </strong>+52 496-124-68-19</p>
+            <p><strong>Horario: </strong>10:00 - 16:00</p>
+            <div class="follow">
+                <h4>Síguenos</h4>
+                <div class="icon">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-pinterest-p"></i>
+                    <i class="fab fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <h4>Acerca de</h4>
+            <a href="#">Sobre Nosotros</a>
+            <a href="#">Información de Entregas</a>
+            <a href="#">Política de Privacidad</a>
+            <a href="#">Términos y Condiciones</a>
+            <a href="#">Contáctanos</a>
+        </div>
+
+        <div class="col">
+            <h4>Mi Cuenta</h4>
+            <a href="#">Iniciar Sesión</a>
+            <a href="#">Ver Carrito</a>
+            <a href="#">Lista de Deseados</a>
+            <a href="#">Rastrear mi compra</a>
+            <a href="#">Ayuda</a>
+        </div>
+
+        <div class="col-install">
+            <h4>Instala la Aplicación</h4>
+            <p>Desde la App Store o Google Play</p>
+            <div class="row">
+                <img src="img/pagos/5a902db97f96951c82922874.png" height="50" width="100" alt="">
+                <img src="img/pagos/google-play-badge.png" height="50" width="100" alt="">
+            </div>
+            
+            <p>Pago Seguro</p>
+            <img  src="img/pagos/images.png" height="130" width="300" alt="">
+        </div>
+
+        
+    </footer>
+    <div class="copyright">
+        <p>Ⓒ 2022, Jorge Sosa Ecommerce HTML-CSS FrontEnd Template</p>
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
